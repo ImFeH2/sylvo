@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { CardType } from '../types';
-import CardGrid from '../components/CardGrid';
-import { CardAPI } from '../lib/api';
-import '../styles/pages/HomePage.css';
+import { CardType } from '@types';
+import CardGrid from '@components/CardGrid';
+import { CardAPI } from '@lib/api';
+import '@styles/pages/HomePage.css';
 
 const HomePage: React.FC = () => {
     const [cards, setCards] = useState<CardType[]>([]);

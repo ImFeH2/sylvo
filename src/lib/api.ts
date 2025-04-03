@@ -1,5 +1,5 @@
 import { invoke } from '@tauri-apps/api/core';
-import { CardType } from '../types';
+import { CardType } from '@types';
 
 /**
  * API namespace containing all card-related operations

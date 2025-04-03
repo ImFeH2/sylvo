@@ -1,7 +1,7 @@
 import React from 'react';
-import { CardType } from '../types';
-import Card from './Card';
-import '../styles/components/CardGrid.css';
+import { CardType } from '@types';
+import Card from '@components/Card';
+import '@styles/components/CardGrid.css';
 
 interface CardGridProps {
     cards: CardType[];

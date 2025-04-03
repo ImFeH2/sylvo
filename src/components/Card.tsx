@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { CardType, formatTimestamp } from '../types';
-import { CardAPI } from '../lib/api';
-import '../styles/components/Card.css';
+import { CardType, formatTimestamp } from '@types';
+import { CardAPI } from '@lib/api';
+import '@styles/components/Card.css';
 
 interface CardProps {
     card: CardType;
